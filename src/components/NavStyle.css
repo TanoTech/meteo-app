@@ -6,7 +6,6 @@ form {
 
 header {
     position: fixed;
-    top: 0;
-    
+    top: 1rem;
     z-index: 10;
 }
