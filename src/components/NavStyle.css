@@ -1,0 +1,12 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    
+    z-index: 10;
+}

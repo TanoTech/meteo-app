@@ -1,0 +1,124 @@
+img {
+    width: 15rem;
+}
+
+.getWeather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    img {
+        width: 10%;
+    }
+    .card-body img {
+        width: 50%;
+    }
+}
+
+.hourlyMeteo {
+    overflow: auto;
+
+    img {
+        width: 4rem;
+        height: 3rem;
+        object-fit: contain;
+    }
+
+    .card {
+        height: 35rem;
+
+        @media screen and (min-width: 500px) {
+            height: 11em;
+        }
+    }
+}
+
+.weeklyMeteo {
+    overflow: auto;
+    margin: 2rem;
+
+    img {
+        width: 3rem;
+        height: 3rem;
+        object-fit: contain;
+    }
+
+    .card {
+        height: 35rem;
+    }
+}
+
+.detailsComp {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+
+    div {
+        width: 15svw;
+        height: 35svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 20%;
+        }
+    }
+}
+
+.alertsDet {
+    flex-basis: 10%;
+}
+
+.moonPhase {
+    img {
+        width: 85%!important;
+    }
+}
+
+.sunSet {
+    img {
+        width: 30%;
+    }
+}
+
+.precDet {
+    img {
+        width: 20%;
+    }
+}
+
+.card-header, .card-footer {
+    background-color: transparent!important;
+    border: none;
+}
+
+.card-body {
+    background-color: rgba(0, 255, 255, 0.284);
+}
+
+.card {
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+
+h1, h2, h3, h4 {
+    margin: 1rem 0;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    margin-top: 0.3rem;
+
+}
+
+main {
+    background-image: url('/public/assets/imgs/background4.webp');
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
